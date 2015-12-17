@@ -1,0 +1,10 @@
+PODS:
+  - RSPlayPauseButton (1.0.1)
+
+DEPENDENCIES:
+  - RSPlayPauseButton
+
+SPEC CHECKSUMS:
+  RSPlayPauseButton: 9def027a1259ded3a6ecfeb0e57df1775ff22fb0
+
+COCOAPODS: 0.39.0

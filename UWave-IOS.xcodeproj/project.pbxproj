@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		159E79EFFF73B9E11D1D0E20 /* libPods-UWave-IOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C636E5ACD44361357D649A9 /* libPods-UWave-IOS.a */; };
 		5ECDA92B1C225F6000B7BB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDA92A1C225F6000B7BB9E /* AppDelegate.swift */; };
 		5ECDA92D1C225F6000B7BB9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDA92C1C225F6000B7BB9E /* ViewController.swift */; };
 		5ECDA9301C225F6000B7BB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ECDA92E1C225F6000B7BB9E /* Main.storyboard */; };
@@ -50,6 +51,9 @@
 		5ECDA97F1C22605700B7BB9E /* swoosh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swoosh.png; sourceTree = "<group>"; };
 		5ECDA9801C22605700B7BB9E /* UWavePauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UWavePauseButton.png; sourceTree = "<group>"; };
 		5ECDA9811C22605700B7BB9E /* UWavePlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UWavePlayButton.png; sourceTree = "<group>"; };
+		709240EAA9DFBF389CF30FF1 /* Pods-UWave-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UWave-IOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UWave-IOS/Pods-UWave-IOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9C636E5ACD44361357D649A9 /* libPods-UWave-IOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UWave-IOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC66C1A2A06E1BC13009FF1D /* Pods-UWave-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UWave-IOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-UWave-IOS/Pods-UWave-IOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159E79EFFF73B9E11D1D0E20 /* libPods-UWave-IOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +73,8 @@
 			children = (
 				5ECDA9291C225F6000B7BB9E /* UWave-IOS */,
 				5ECDA9281C225F6000B7BB9E /* Products */,
+				DE05A2D59E0DA258A7CE932B /* Pods */,
+				7ED7117E7A8677989B33AD1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +121,23 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		7ED7117E7A8677989B33AD1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C636E5ACD44361357D649A9 /* libPods-UWave-IOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE05A2D59E0DA258A7CE932B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				709240EAA9DFBF389CF30FF1 /* Pods-UWave-IOS.debug.xcconfig */,
+				DC66C1A2A06E1BC13009FF1D /* Pods-UWave-IOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5ECDA9391C225F6000B7BB9E /* Build configuration list for PBXNativeTarget "UWave-IOS" */;
 			buildPhases = (
+				7EE205E9433590BE211BC7CE /* Check Pods Manifest.lock */,
 				5ECDA9231C225F6000B7BB9E /* Sources */,
 				5ECDA9241C225F6000B7BB9E /* Frameworks */,
 				5ECDA9251C225F6000B7BB9E /* Resources */,
+				EBA2AA6CDAEA68067554C568 /* Embed Pods Frameworks */,
+				019E3D0B7FF9F3CC9882021E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +219,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		019E3D0B7FF9F3CC9882021E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UWave-IOS/Pods-UWave-IOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EE205E9433590BE211BC7CE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EBA2AA6CDAEA68067554C568 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UWave-IOS/Pods-UWave-IOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5ECDA9231C225F6000B7BB9E /* Sources */ = {
@@ -309,6 +384,7 @@
 		};
 		5ECDA93A1C225F6000B7BB9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 709240EAA9DFBF389CF30FF1 /* Pods-UWave-IOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "UWave-IOS/Info.plist";
@@ -320,6 +396,7 @@
 		};
 		5ECDA93B1C225F6000B7BB9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC66C1A2A06E1BC13009FF1D /* Pods-UWave-IOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "UWave-IOS/Info.plist";
