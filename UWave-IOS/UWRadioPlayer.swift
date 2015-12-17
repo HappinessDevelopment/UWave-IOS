@@ -10,6 +10,8 @@ import Foundation
 import AVFoundation
 
 class UWRadioPlayer {
+    
+    
     static let sharedInstance = UWRadioPlayer()
     private var player = AVPlayer(URL: NSURL(string: "http://live.uwave.fm:8000/listen-128.mp3")!)
     

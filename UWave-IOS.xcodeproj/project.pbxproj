@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		159E79EFFF73B9E11D1D0E20 /* libPods-UWave-IOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C636E5ACD44361357D649A9 /* libPods-UWave-IOS.a */; };
 		5ECDA92B1C225F6000B7BB9E /* UWAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDA92A1C225F6000B7BB9E /* UWAppDelegate.swift */; };
 		5ECDA92D1C225F6000B7BB9E /* UWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDA92C1C225F6000B7BB9E /* UWViewController.swift */; };
 		5ECDA9301C225F6000B7BB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ECDA92E1C225F6000B7BB9E /* Main.storyboard */; };
@@ -27,9 +26,11 @@
 		5ECDA98C1C22605700B7BB9E /* swoosh.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECDA97F1C22605700B7BB9E /* swoosh.png */; };
 		5ECDA98D1C22605700B7BB9E /* UWavePauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECDA9801C22605700B7BB9E /* UWavePauseButton.png */; };
 		5ECDA98E1C22605700B7BB9E /* UWavePlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECDA9811C22605700B7BB9E /* UWavePlayButton.png */; };
+		F030C44D675C41FB02DF6C59 /* Pods_UWave_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136E75A08E0CE99F32A5819A /* Pods_UWave_IOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		136E75A08E0CE99F32A5819A /* Pods_UWave_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UWave_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECDA9271C225F6000B7BB9E /* UWave-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UWave-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECDA92A1C225F6000B7BB9E /* UWAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWAppDelegate.swift; sourceTree = "<group>"; };
 		5ECDA92C1C225F6000B7BB9E /* UWViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		5ECDA9801C22605700B7BB9E /* UWavePauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UWavePauseButton.png; sourceTree = "<group>"; };
 		5ECDA9811C22605700B7BB9E /* UWavePlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UWavePlayButton.png; sourceTree = "<group>"; };
 		709240EAA9DFBF389CF30FF1 /* Pods-UWave-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UWave-IOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UWave-IOS/Pods-UWave-IOS.debug.xcconfig"; sourceTree = "<group>"; };
-		9C636E5ACD44361357D649A9 /* libPods-UWave-IOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UWave-IOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC66C1A2A06E1BC13009FF1D /* Pods-UWave-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UWave-IOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-UWave-IOS/Pods-UWave-IOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				159E79EFFF73B9E11D1D0E20 /* libPods-UWave-IOS.a in Frameworks */,
+				F030C44D675C41FB02DF6C59 /* Pods_UWave_IOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +124,7 @@
 		7ED7117E7A8677989B33AD1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9C636E5ACD44361357D649A9 /* libPods-UWave-IOS.a */,
+				136E75A08E0CE99F32A5819A /* Pods_UWave_IOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

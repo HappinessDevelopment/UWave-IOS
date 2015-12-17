@@ -7,88 +7,133 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31C444FF84BC83914D5CD4707135FE26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		5FFB1AA2BB43F8A5CE54F5CD109DFA68 /* RSPlayPauseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0922B894C62206ABBED8792ED222DA1B /* RSPlayPauseButton.m */; };
-		9B3B05774DBF2CC1B7CDE12444C03AAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		CDDE4BE0D8ACBB8AFD140FB53ACD5F06 /* RSPlayPauseButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AB63C67D952799A3B3B2F8E021EFE8 /* RSPlayPauseButton-dummy.m */; };
-		E0361C93F27CF37002B4A43A112ABA67 /* Pods-UWave-IOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3720F9436EFE8DCB8EB68F63FBD542AF /* Pods-UWave-IOS-dummy.m */; };
-		F0AD81216B4A8F7606CC6F9DC91704DF /* RSPlayPauseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 850808593D3ED27E0B97871F2827C847 /* RSPlayPauseButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		162C4DEF7E955E19A1B31C3969A71F44 /* PageMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F81C0947D0B9874D379A283EC70E3FF /* PageMenu-dummy.m */; };
+		19B00B2A0FB18D86BD4DF7E53DFA938A /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FAF27BC7C27C3B6B6ADACBBAC84D9C /* CAPSPageMenu.swift */; };
+		6A45D8FFF0516B315A633432AB7601F7 /* PageMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8063D4BA8465C2C1C8961F2D8727FF9A /* PageMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82595CF3A36B1AEC32F5E8BCD6A5208D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		9A08DCB265DFF6500CEABF0F315A5775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A317DA17F7D64B4AD4FB43FFFD380FAD /* Pods-UWave-IOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A790B28B2E9E267D6998ECF4DBB3DEB8 /* Pods-UWave-IOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1D289D4C0D2422AD86B275236988C45 /* RSPlayPauseButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6464343E92F1EE1FAE7D70D98538401E /* RSPlayPauseButton-dummy.m */; };
+		D05FB10A179A3499CD5F8777E2A2B8E9 /* Pods-UWave-IOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B521054AA03AE664E1F1A4003D6F0448 /* Pods-UWave-IOS-dummy.m */; };
+		E298A831EAC093843FB11B0BD49C6166 /* RSPlayPauseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B0E23F25C335EB31E2E5D39321A5FDB /* RSPlayPauseButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E309BEA39D4FBE2BF77C1C5FBFCD5E07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E79FB24D4B7B003F85305D936094D038 /* RSPlayPauseButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCD87D45100EF638CE1F9655D508DB3 /* RSPlayPauseButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5F32921E03442483C1A3DBDAA534FEE /* RSPlayPauseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC64F32361571980D8F144F2B721748 /* RSPlayPauseButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3960902AC941E104AD5EA202748AB768 /* PBXContainerItemProxy */ = {
+		230D7AA3F13FA94838DEADAC50D05A11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7482BA2C1DD4E670911E0166F002076F;
+			remoteGlobalIDString = 21C461B0CAD90DE64B07A5D212C5F829;
+			remoteInfo = PageMenu;
+		};
+		912181983950E43786B916F13DDECD42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8583A5B097F892A4C011E86460516F89;
 			remoteInfo = RSPlayPauseButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0922B894C62206ABBED8792ED222DA1B /* RSPlayPauseButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSPlayPauseButton.m; path = RSPlayPauseButtonDemo/RSPlayPauseButton/RSPlayPauseButton.m; sourceTree = "<group>"; };
-		166602E0B35CBD64394AE63CEF76A659 /* Pods-UWave-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UWave-IOS.release.xcconfig"; sourceTree = "<group>"; };
-		30027760393E0B070C1CE2A5A074B303 /* Pods-UWave-IOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UWave-IOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		3720F9436EFE8DCB8EB68F63FBD542AF /* Pods-UWave-IOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UWave-IOS-dummy.m"; sourceTree = "<group>"; };
-		395306419B45D3D2A92C231F52AFEC05 /* Pods-UWave-IOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UWave-IOS-frameworks.sh"; sourceTree = "<group>"; };
+		075F593F803DE2239D29F724DA83E47A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B0E23F25C335EB31E2E5D39321A5FDB /* RSPlayPauseButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSPlayPauseButton.h; path = RSPlayPauseButtonDemo/RSPlayPauseButton/RSPlayPauseButton.h; sourceTree = "<group>"; };
+		0F81C0947D0B9874D379A283EC70E3FF /* PageMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PageMenu-dummy.m"; sourceTree = "<group>"; };
+		1F8FBF34E30CBF5AD5B0091DD2B9BF19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E993BE161DD2756C2308256A6E4BAFB /* PageMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PageMenu-prefix.pch"; sourceTree = "<group>"; };
+		2EBFA1C4B7416618EE0D72B15A01F9D6 /* RSPlayPauseButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSPlayPauseButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34AD1CF981E954D3DA0641C1DF4E60A9 /* Pods-UWave-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UWave-IOS.release.xcconfig"; sourceTree = "<group>"; };
+		3CF4DC638257AC324F44C70E44FD97E0 /* PageMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PageMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6031521030B4C43845BDE9EEDD2AFBBD /* Pods-UWave-IOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UWave-IOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		73C3163FA0E9019F348EA9456C00F6D7 /* RSPlayPauseButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSPlayPauseButton-prefix.pch"; sourceTree = "<group>"; };
-		7BF5D8182D3ED8868C4FE14EDC58B93C /* Pods-UWave-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UWave-IOS.debug.xcconfig"; sourceTree = "<group>"; };
-		850808593D3ED27E0B97871F2827C847 /* RSPlayPauseButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSPlayPauseButton.h; path = RSPlayPauseButtonDemo/RSPlayPauseButton/RSPlayPauseButton.h; sourceTree = "<group>"; };
-		8A6C2BE2A55F5B1BB81EB26F6DA3FDE9 /* libRSPlayPauseButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRSPlayPauseButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A15E841600898C7510EAC698F488B135 /* Pods-UWave-IOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UWave-IOS-resources.sh"; sourceTree = "<group>"; };
-		A8AB63C67D952799A3B3B2F8E021EFE8 /* RSPlayPauseButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSPlayPauseButton-dummy.m"; sourceTree = "<group>"; };
+		467840CACA80D52D506DA0A2A6D9C86E /* Pods-UWave-IOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UWave-IOS-resources.sh"; sourceTree = "<group>"; };
+		6464343E92F1EE1FAE7D70D98538401E /* RSPlayPauseButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSPlayPauseButton-dummy.m"; sourceTree = "<group>"; };
+		66B1717F8242C4EE9CA97D3FF124C78D /* Pods_UWave_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UWave_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		723D3A2BE0352AC7B741F5F740F4C339 /* RSPlayPauseButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSPlayPauseButton.xcconfig; sourceTree = "<group>"; };
+		7734DFC52A3C3D59E308713D59448477 /* RSPlayPauseButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSPlayPauseButton-prefix.pch"; sourceTree = "<group>"; };
+		77BFEB005346278CB48FA3427577EA44 /* PageMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PageMenu.xcconfig; sourceTree = "<group>"; };
+		8063D4BA8465C2C1C8961F2D8727FF9A /* PageMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PageMenu-umbrella.h"; sourceTree = "<group>"; };
+		8CE7BD3CF798D8BBD0B4A6721FB1007F /* RSPlayPauseButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RSPlayPauseButton.modulemap; sourceTree = "<group>"; };
+		8DEFC77518D9DF08E7AE88C97F5D54C3 /* Pods-UWave-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UWave-IOS.debug.xcconfig"; sourceTree = "<group>"; };
+		92C8DD07D18AB046B94B66E012F7B5B7 /* Pods-UWave-IOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UWave-IOS-frameworks.sh"; sourceTree = "<group>"; };
+		A790B28B2E9E267D6998ECF4DBB3DEB8 /* Pods-UWave-IOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UWave-IOS-umbrella.h"; sourceTree = "<group>"; };
+		B521054AA03AE664E1F1A4003D6F0448 /* Pods-UWave-IOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UWave-IOS-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D38A240248728DD2BA69AFFB3BE070C1 /* RSPlayPauseButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSPlayPauseButton.xcconfig; sourceTree = "<group>"; };
-		DA94A6F7D58787722BC29AA373C7613E /* libPods-UWave-IOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UWave-IOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FAF27BC7C27C3B6B6ADACBBAC84D9C /* CAPSPageMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CAPSPageMenu.swift; path = Classes/CAPSPageMenu.swift; sourceTree = "<group>"; };
+		CD821F7BD328DC378703EC8BDC620B9D /* Pods-UWave-IOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UWave-IOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDCD87D45100EF638CE1F9655D508DB3 /* RSPlayPauseButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSPlayPauseButton-umbrella.h"; sourceTree = "<group>"; };
+		E13CE3DDEDFA453CA5469BF2FC14202C /* PageMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PageMenu.modulemap; sourceTree = "<group>"; };
+		E88E1FA1C14F08896539DAD7774282B3 /* Pods-UWave-IOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UWave-IOS.modulemap"; sourceTree = "<group>"; };
+		EF0C753E956F2D8822B5ECA1AB128165 /* Pods-UWave-IOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UWave-IOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		FCC64F32361571980D8F144F2B721748 /* RSPlayPauseButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSPlayPauseButton.m; path = RSPlayPauseButtonDemo/RSPlayPauseButton/RSPlayPauseButton.m; sourceTree = "<group>"; };
+		FD4398403C3C30548F0EF48FD0B17A1D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F357B2C7FBCA56FBE11C7D27AFF4750 /* Frameworks */ = {
+		560AED9409C478489E57632650AF3519 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31C444FF84BC83914D5CD4707135FE26 /* Foundation.framework in Frameworks */,
+				E309BEA39D4FBE2BF77C1C5FBFCD5E07 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FDEDFA43AB63F3BD6572864B7371F39 /* Frameworks */ = {
+		96515FC242610A0F139660D1E65A6D93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B3B05774DBF2CC1B7CDE12444C03AAE /* Foundation.framework in Frameworks */,
+				9A08DCB265DFF6500CEABF0F315A5775 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5FBE46555305C54A71B3C929671293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82595CF3A36B1AEC32F5E8BCD6A5208D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C828D88FA39CC764310D82B5AE7EE94 /* Targets Support Files */ = {
+		0017F725DA17918B60B87ED590CA23C8 /* Pods-UWave-IOS */ = {
 			isa = PBXGroup;
 			children = (
-				ED64B392AB29202731934745CD79916B /* Pods-UWave-IOS */,
+				FD4398403C3C30548F0EF48FD0B17A1D /* Info.plist */,
+				E88E1FA1C14F08896539DAD7774282B3 /* Pods-UWave-IOS.modulemap */,
+				CD821F7BD328DC378703EC8BDC620B9D /* Pods-UWave-IOS-acknowledgements.markdown */,
+				EF0C753E956F2D8822B5ECA1AB128165 /* Pods-UWave-IOS-acknowledgements.plist */,
+				B521054AA03AE664E1F1A4003D6F0448 /* Pods-UWave-IOS-dummy.m */,
+				92C8DD07D18AB046B94B66E012F7B5B7 /* Pods-UWave-IOS-frameworks.sh */,
+				467840CACA80D52D506DA0A2A6D9C86E /* Pods-UWave-IOS-resources.sh */,
+				A790B28B2E9E267D6998ECF4DBB3DEB8 /* Pods-UWave-IOS-umbrella.h */,
+				8DEFC77518D9DF08E7AE88C97F5D54C3 /* Pods-UWave-IOS.debug.xcconfig */,
+				34AD1CF981E954D3DA0641C1DF4E60A9 /* Pods-UWave-IOS.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-UWave-IOS";
+			path = "Target Support Files/Pods-UWave-IOS";
 			sourceTree = "<group>";
 		};
-		16093175DED6890C1ABD5B44ACED2E4B /* Pods */ = {
+		0DD338B44B87FF7BC86A6F8C9EF0E13E /* RSPlayPauseButton */ = {
 			isa = PBXGroup;
 			children = (
-				FB359816AD01158AA63166AD4C79E64C /* RSPlayPauseButton */,
+				0B0E23F25C335EB31E2E5D39321A5FDB /* RSPlayPauseButton.h */,
+				FCC64F32361571980D8F144F2B721748 /* RSPlayPauseButton.m */,
+				A2DF0A8B33E3164B327CD59428D72AB6 /* Support Files */,
 			);
-			name = Pods;
+			path = RSPlayPauseButton;
 			sourceTree = "<group>";
 		};
-		275CECB9DA1ABC6A3884A0109531C5B6 /* Support Files */ = {
+		46B04803469BE00913EF18B8EB5969D8 /* PageMenu */ = {
 			isa = PBXGroup;
 			children = (
-				D38A240248728DD2BA69AFFB3BE070C1 /* RSPlayPauseButton.xcconfig */,
-				A8AB63C67D952799A3B3B2F8E021EFE8 /* RSPlayPauseButton-dummy.m */,
-				73C3163FA0E9019F348EA9456C00F6D7 /* RSPlayPauseButton-prefix.pch */,
+				C2FAF27BC7C27C3B6B6ADACBBAC84D9C /* CAPSPageMenu.swift */,
+				B2023E4F63E600B3A92F1AEADD5AEB8B /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/RSPlayPauseButton";
+			path = PageMenu;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -96,10 +141,38 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				16093175DED6890C1ABD5B44ACED2E4B /* Pods */,
-				C5A98F6E558F9BA465F035434ECBE6FA /* Products */,
-				0C828D88FA39CC764310D82B5AE7EE94 /* Targets Support Files */,
+				FFDD8DAA1E0ABCB70B3BA681ACBE19E2 /* Pods */,
+				ECE3886F68423EAE99739B854BDF9C03 /* Products */,
+				C562AADA6942830ADCD39536C912C1A0 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		A2DF0A8B33E3164B327CD59428D72AB6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				075F593F803DE2239D29F724DA83E47A /* Info.plist */,
+				8CE7BD3CF798D8BBD0B4A6721FB1007F /* RSPlayPauseButton.modulemap */,
+				723D3A2BE0352AC7B741F5F740F4C339 /* RSPlayPauseButton.xcconfig */,
+				6464343E92F1EE1FAE7D70D98538401E /* RSPlayPauseButton-dummy.m */,
+				7734DFC52A3C3D59E308713D59448477 /* RSPlayPauseButton-prefix.pch */,
+				DDCD87D45100EF638CE1F9655D508DB3 /* RSPlayPauseButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RSPlayPauseButton";
+			sourceTree = "<group>";
+		};
+		B2023E4F63E600B3A92F1AEADD5AEB8B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F8FBF34E30CBF5AD5B0091DD2B9BF19 /* Info.plist */,
+				E13CE3DDEDFA453CA5469BF2FC14202C /* PageMenu.modulemap */,
+				77BFEB005346278CB48FA3427577EA44 /* PageMenu.xcconfig */,
+				0F81C0947D0B9874D379A283EC70E3FF /* PageMenu-dummy.m */,
+				2E993BE161DD2756C2308256A6E4BAFB /* PageMenu-prefix.pch */,
+				8063D4BA8465C2C1C8961F2D8727FF9A /* PageMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PageMenu";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -118,78 +191,107 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C5A98F6E558F9BA465F035434ECBE6FA /* Products */ = {
+		C562AADA6942830ADCD39536C912C1A0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DA94A6F7D58787722BC29AA373C7613E /* libPods-UWave-IOS.a */,
-				8A6C2BE2A55F5B1BB81EB26F6DA3FDE9 /* libRSPlayPauseButton.a */,
+				0017F725DA17918B60B87ED590CA23C8 /* Pods-UWave-IOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ECE3886F68423EAE99739B854BDF9C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CF4DC638257AC324F44C70E44FD97E0 /* PageMenu.framework */,
+				66B1717F8242C4EE9CA97D3FF124C78D /* Pods_UWave_IOS.framework */,
+				2EBFA1C4B7416618EE0D72B15A01F9D6 /* RSPlayPauseButton.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ED64B392AB29202731934745CD79916B /* Pods-UWave-IOS */ = {
+		FFDD8DAA1E0ABCB70B3BA681ACBE19E2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6031521030B4C43845BDE9EEDD2AFBBD /* Pods-UWave-IOS-acknowledgements.markdown */,
-				30027760393E0B070C1CE2A5A074B303 /* Pods-UWave-IOS-acknowledgements.plist */,
-				3720F9436EFE8DCB8EB68F63FBD542AF /* Pods-UWave-IOS-dummy.m */,
-				395306419B45D3D2A92C231F52AFEC05 /* Pods-UWave-IOS-frameworks.sh */,
-				A15E841600898C7510EAC698F488B135 /* Pods-UWave-IOS-resources.sh */,
-				7BF5D8182D3ED8868C4FE14EDC58B93C /* Pods-UWave-IOS.debug.xcconfig */,
-				166602E0B35CBD64394AE63CEF76A659 /* Pods-UWave-IOS.release.xcconfig */,
+				46B04803469BE00913EF18B8EB5969D8 /* PageMenu */,
+				0DD338B44B87FF7BC86A6F8C9EF0E13E /* RSPlayPauseButton */,
 			);
-			name = "Pods-UWave-IOS";
-			path = "Target Support Files/Pods-UWave-IOS";
-			sourceTree = "<group>";
-		};
-		FB359816AD01158AA63166AD4C79E64C /* RSPlayPauseButton */ = {
-			isa = PBXGroup;
-			children = (
-				850808593D3ED27E0B97871F2827C847 /* RSPlayPauseButton.h */,
-				0922B894C62206ABBED8792ED222DA1B /* RSPlayPauseButton.m */,
-				275CECB9DA1ABC6A3884A0109531C5B6 /* Support Files */,
-			);
-			path = RSPlayPauseButton;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		366ABF1433F5FBC43A864F410227299B /* Headers */ = {
+		3D71192832F593717D21A385B200ABEE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0AD81216B4A8F7606CC6F9DC91704DF /* RSPlayPauseButton.h in Headers */,
+				A317DA17F7D64B4AD4FB43FFFD380FAD /* Pods-UWave-IOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D2ACC1C95CB1D7ACAA0920A3E1AE888 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79FB24D4B7B003F85305D936094D038 /* RSPlayPauseButton-umbrella.h in Headers */,
+				E298A831EAC093843FB11B0BD49C6166 /* RSPlayPauseButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C649FB80E2D7A80904670C6F6F1C84D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A45D8FFF0516B315A633432AB7601F7 /* PageMenu-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		158DAB02BF89B15C353CE208CFD4F725 /* Pods-UWave-IOS */ = {
+		105F187D71C5B3D961E52B2A38C0EEAF /* Pods-UWave-IOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58A597BC78C256F6A36BB1BCFB0125B1 /* Build configuration list for PBXNativeTarget "Pods-UWave-IOS" */;
+			buildConfigurationList = 49E842397E35BCC90D03371C1BF8AA0E /* Build configuration list for PBXNativeTarget "Pods-UWave-IOS" */;
 			buildPhases = (
-				B91C07E69CE5AB523CA2DFEB86DC9D9A /* Sources */,
-				6FDEDFA43AB63F3BD6572864B7371F39 /* Frameworks */,
+				65243D4F8667C1A6D7A65C58701F02CA /* Sources */,
+				96515FC242610A0F139660D1E65A6D93 /* Frameworks */,
+				3D71192832F593717D21A385B200ABEE /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CEFC91DC9AC0F4C174DEFD5B38C1A0A4 /* PBXTargetDependency */,
+				361059F5DC61403F471A22F3BEC6388F /* PBXTargetDependency */,
+				04DE0D3E046B53AA3185CE5E58763AA3 /* PBXTargetDependency */,
 			);
 			name = "Pods-UWave-IOS";
 			productName = "Pods-UWave-IOS";
-			productReference = DA94A6F7D58787722BC29AA373C7613E /* libPods-UWave-IOS.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 66B1717F8242C4EE9CA97D3FF124C78D /* Pods_UWave_IOS.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		7482BA2C1DD4E670911E0166F002076F /* RSPlayPauseButton */ = {
+		21C461B0CAD90DE64B07A5D212C5F829 /* PageMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E56DF483B8B5DA77C4232CF26D656C2 /* Build configuration list for PBXNativeTarget "RSPlayPauseButton" */;
+			buildConfigurationList = DD80BA95D68F87EAD97E01F63171E287 /* Build configuration list for PBXNativeTarget "PageMenu" */;
 			buildPhases = (
-				CA7D016FE63F5AE86F2EB1166DFE3BB8 /* Sources */,
-				3F357B2C7FBCA56FBE11C7D27AFF4750 /* Frameworks */,
-				366ABF1433F5FBC43A864F410227299B /* Headers */,
+				BE4773BA65A16D7C82A01FCB22D49165 /* Sources */,
+				AA5FBE46555305C54A71B3C929671293 /* Frameworks */,
+				C649FB80E2D7A80904670C6F6F1C84D1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PageMenu;
+			productName = PageMenu;
+			productReference = 3CF4DC638257AC324F44C70E44FD97E0 /* PageMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8583A5B097F892A4C011E86460516F89 /* RSPlayPauseButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AE4747EBDC5871C2B4D1EA1D72DCCC4 /* Build configuration list for PBXNativeTarget "RSPlayPauseButton" */;
+			buildPhases = (
+				BA69D9A462B5A37B32A93C498A09FA75 /* Sources */,
+				560AED9409C478489E57632650AF3519 /* Frameworks */,
+				8D2ACC1C95CB1D7ACAA0920A3E1AE888 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -197,8 +299,8 @@
 			);
 			name = RSPlayPauseButton;
 			productName = RSPlayPauseButton;
-			productReference = 8A6C2BE2A55F5B1BB81EB26F6DA3FDE9 /* libRSPlayPauseButton.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 2EBFA1C4B7416618EE0D72B15A01F9D6 /* RSPlayPauseButton.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -217,82 +319,145 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C5A98F6E558F9BA465F035434ECBE6FA /* Products */;
+			productRefGroup = ECE3886F68423EAE99739B854BDF9C03 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				158DAB02BF89B15C353CE208CFD4F725 /* Pods-UWave-IOS */,
-				7482BA2C1DD4E670911E0166F002076F /* RSPlayPauseButton */,
+				21C461B0CAD90DE64B07A5D212C5F829 /* PageMenu */,
+				105F187D71C5B3D961E52B2A38C0EEAF /* Pods-UWave-IOS */,
+				8583A5B097F892A4C011E86460516F89 /* RSPlayPauseButton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B91C07E69CE5AB523CA2DFEB86DC9D9A /* Sources */ = {
+		65243D4F8667C1A6D7A65C58701F02CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0361C93F27CF37002B4A43A112ABA67 /* Pods-UWave-IOS-dummy.m in Sources */,
+				D05FB10A179A3499CD5F8777E2A2B8E9 /* Pods-UWave-IOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA7D016FE63F5AE86F2EB1166DFE3BB8 /* Sources */ = {
+		BA69D9A462B5A37B32A93C498A09FA75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDDE4BE0D8ACBB8AFD140FB53ACD5F06 /* RSPlayPauseButton-dummy.m in Sources */,
-				5FFB1AA2BB43F8A5CE54F5CD109DFA68 /* RSPlayPauseButton.m in Sources */,
+				B1D289D4C0D2422AD86B275236988C45 /* RSPlayPauseButton-dummy.m in Sources */,
+				F5F32921E03442483C1A3DBDAA534FEE /* RSPlayPauseButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4773BA65A16D7C82A01FCB22D49165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B00B2A0FB18D86BD4DF7E53DFA938A /* CAPSPageMenu.swift in Sources */,
+				162C4DEF7E955E19A1B31C3969A71F44 /* PageMenu-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CEFC91DC9AC0F4C174DEFD5B38C1A0A4 /* PBXTargetDependency */ = {
+		04DE0D3E046B53AA3185CE5E58763AA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RSPlayPauseButton;
-			target = 7482BA2C1DD4E670911E0166F002076F /* RSPlayPauseButton */;
-			targetProxy = 3960902AC941E104AD5EA202748AB768 /* PBXContainerItemProxy */;
+			target = 8583A5B097F892A4C011E86460516F89 /* RSPlayPauseButton */;
+			targetProxy = 912181983950E43786B916F13DDECD42 /* PBXContainerItemProxy */;
+		};
+		361059F5DC61403F471A22F3BEC6388F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PageMenu;
+			target = 21C461B0CAD90DE64B07A5D212C5F829 /* PageMenu */;
+			targetProxy = 230D7AA3F13FA94838DEADAC50D05A11 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		46497B53754DF4394D09CE7DCDE31C34 /* Debug */ = {
+		1C0B15401F6ECA7D3E216353D151A43B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D38A240248728DD2BA69AFFB3BE070C1 /* RSPlayPauseButton.xcconfig */;
+			baseConfigurationReference = 77BFEB005346278CB48FA3427577EA44 /* PageMenu.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RSPlayPauseButton/RSPlayPauseButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		67B08E42D82BE8B8C3D94FE92B2F0DA2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 166602E0B35CBD64394AE63CEF76A659 /* Pods-UWave-IOS.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/PageMenu/PageMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PageMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PageMenu/PageMenu.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PageMenu;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+		5B502E1A17825CB7AD608554596F078D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 723D3A2BE0352AC7B741F5F740F4C339 /* RSPlayPauseButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RSPlayPauseButton/RSPlayPauseButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSPlayPauseButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSPlayPauseButton/RSPlayPauseButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RSPlayPauseButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65E030760A1E4B9E6D75FC17BB2F3B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77BFEB005346278CB48FA3427577EA44 /* PageMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PageMenu/PageMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PageMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PageMenu/PageMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PageMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -324,31 +489,102 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		C310920A4387DEA6A32C81AFB899AF52 /* Debug */ = {
+		A8E3A403FF39BA5B0BF72D31EFE917AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BF5D8182D3ED8868C4FE14EDC58B93C /* Pods-UWave-IOS.debug.xcconfig */;
+			baseConfigurationReference = 8DEFC77518D9DF08E7AE88C97F5D54C3 /* Pods-UWave-IOS.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				INFOPLIST_FILE = "Target Support Files/Pods-UWave-IOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UWave-IOS/Pods-UWave-IOS.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pods_UWave_IOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+		A9DF03B9580CB4F02E9AECFE5E7B10AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34AD1CF981E954D3DA0641C1DF4E60A9 /* Pods-UWave-IOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UWave-IOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UWave-IOS/Pods-UWave-IOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UWave_IOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EEE854F3F9FCACC8EBB30B64F1AACBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 723D3A2BE0352AC7B741F5F740F4C339 /* RSPlayPauseButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RSPlayPauseButton/RSPlayPauseButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSPlayPauseButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSPlayPauseButton/RSPlayPauseButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RSPlayPauseButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -375,57 +611,48 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		FED8E41BB7F6E46D4C81B557883B5756 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D38A240248728DD2BA69AFFB3BE070C1 /* RSPlayPauseButton.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RSPlayPauseButton/RSPlayPauseButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2AE4747EBDC5871C2B4D1EA1D72DCCC4 /* Build configuration list for PBXNativeTarget "RSPlayPauseButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE854F3F9FCACC8EBB30B64F1AACBAB /* Debug */,
+				5B502E1A17825CB7AD608554596F078D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D1534490D941DCA47C62AC4314182AF /* Debug */,
-				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E56DF483B8B5DA77C4232CF26D656C2 /* Build configuration list for PBXNativeTarget "RSPlayPauseButton" */ = {
+		49E842397E35BCC90D03371C1BF8AA0E /* Build configuration list for PBXNativeTarget "Pods-UWave-IOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46497B53754DF4394D09CE7DCDE31C34 /* Debug */,
-				FED8E41BB7F6E46D4C81B557883B5756 /* Release */,
+				A8E3A403FF39BA5B0BF72D31EFE917AB /* Debug */,
+				A9DF03B9580CB4F02E9AECFE5E7B10AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58A597BC78C256F6A36BB1BCFB0125B1 /* Build configuration list for PBXNativeTarget "Pods-UWave-IOS" */ = {
+		DD80BA95D68F87EAD97E01F63171E287 /* Build configuration list for PBXNativeTarget "PageMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C310920A4387DEA6A32C81AFB899AF52 /* Debug */,
-				67B08E42D82BE8B8C3D94FE92B2F0DA2 /* Release */,
+				65E030760A1E4B9E6D75FC17BB2F3B7F /* Debug */,
+				1C0B15401F6ECA7D3E216353D151A43B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

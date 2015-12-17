@@ -82,3 +82,12 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-UWave-IOS/PageMenu.framework"
+  install_framework "Pods-UWave-IOS/RSPlayPauseButton.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-UWave-IOS/PageMenu.framework"
+  install_framework "Pods-UWave-IOS/RSPlayPauseButton.framework"
+fi
