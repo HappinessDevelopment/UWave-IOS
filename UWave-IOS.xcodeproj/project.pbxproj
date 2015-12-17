@@ -103,19 +103,12 @@
 		5ECDA9291C225F6000B7BB9E /* UWave-IOS */ = {
 			isa = PBXGroup;
 			children = (
-				5ECDA92A1C225F6000B7BB9E /* UWAppDelegate.swift */,
-				5ECDA92C1C225F6000B7BB9E /* UWViewController.swift */,
-				5ECDA9911C2295BA00B7BB9E /* UWPlayPauseButton.swift */,
-				5ECDA9961C22A6ED00B7BB9E /* UIColor.swift */,
-				5ECDA9981C22AA2800B7BB9E /* UWApp.swift */,
-				5ECDA99A1C22AA5D00B7BB9E /* UWNetworkingEngine.swift */,
+				5ECDA9A41C22B52A00B7BB9E /* Core */,
+				5ECDA9A31C22B51E00B7BB9E /* Extensions */,
 				5ECDA99C1C22AE7000B7BB9E /* Model */,
-				5ECDA93C1C22601400B7BB9E /* UWRadioPlayer.swift */,
-				5ECDA92E1C225F6000B7BB9E /* Main.storyboard */,
-				5ECDA9741C22605700B7BB9E /* Images */,
-				5ECDA9311C225F6000B7BB9E /* Assets.xcassets */,
-				5ECDA9331C225F6000B7BB9E /* LaunchScreen.storyboard */,
-				5ECDA9361C225F6000B7BB9E /* Info.plist */,
+				5ECDA9A51C22B53600B7BB9E /* View */,
+				5ECDA9A61C22B53D00B7BB9E /* Controller */,
+				5ECDA9A71C22B56A00B7BB9E /* Supporting Files */,
 			);
 			path = "UWave-IOS";
 			sourceTree = "<group>";
@@ -146,6 +139,53 @@
 				5ECDA99D1C22AE7B00B7BB9E /* UWSongMetadata.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		5ECDA9A31C22B51E00B7BB9E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5ECDA9961C22A6ED00B7BB9E /* UIColor.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		5ECDA9A41C22B52A00B7BB9E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5ECDA92A1C225F6000B7BB9E /* UWAppDelegate.swift */,
+				5ECDA9981C22AA2800B7BB9E /* UWApp.swift */,
+				5ECDA99A1C22AA5D00B7BB9E /* UWNetworkingEngine.swift */,
+				5ECDA9331C225F6000B7BB9E /* LaunchScreen.storyboard */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		5ECDA9A51C22B53600B7BB9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5ECDA92E1C225F6000B7BB9E /* Main.storyboard */,
+				5ECDA92C1C225F6000B7BB9E /* UWViewController.swift */,
+				5ECDA9911C2295BA00B7BB9E /* UWPlayPauseButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5ECDA9A61C22B53D00B7BB9E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5ECDA93C1C22601400B7BB9E /* UWRadioPlayer.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5ECDA9A71C22B56A00B7BB9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ECDA9741C22605700B7BB9E /* Images */,
+				5ECDA9311C225F6000B7BB9E /* Assets.xcassets */,
+				5ECDA9361C225F6000B7BB9E /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		7ED7117E7A8677989B33AD1C /* Frameworks */ = {
