@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="7oL-d4-wWc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="yF7-Y5-eq0">
+            <objects>
+                <viewController id="7oL-d4-wWc" customClass="ViewController" customModule="UWave_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OKZ-uQ-txo"/>
+                        <viewControllerLayoutGuide type="bottom" id="blH-sB-ig3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TbU-f3-8Ob">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rDv-mR-Cg6">
+                                <rect key="frame" x="125" y="419" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="rDv-mR-Cg6" secondAttribute="height" multiplier="1:1" id="qqE-Iv-iJB"/>
+                                </constraints>
+                                <state key="normal" image="UWavePlayButton.png"/>
+                                <state key="selected" backgroundImage="UWavePlayButton.png"/>
+                                <state key="highlighted" image="UWavePauseButton.png"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="7oL-d4-wWc" eventType="touchUpInside" id="Xwi-uN-K6G"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ax2-Lq-eI6">
+                                <rect key="frame" x="36" y="75" width="248" height="132.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ax2-Lq-eI6" secondAttribute="height" multiplier="15:8" id="1uy-MQ-4It"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="rDv-mR-Cg6" firstAttribute="centerX" secondItem="TbU-f3-8Ob" secondAttribute="centerX" id="2kZ-1c-7UU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ax2-Lq-eI6" secondAttribute="trailing" constant="20" id="E7b-O4-qLt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rDv-mR-Cg6" secondAttribute="trailing" constant="109" id="ITD-jh-LZn"/>
+                            <constraint firstItem="Ax2-Lq-eI6" firstAttribute="top" secondItem="OKZ-uQ-txo" secondAttribute="bottom" constant="55" id="Shb-vr-bts"/>
+                            <constraint firstItem="blH-sB-ig3" firstAttribute="top" secondItem="rDv-mR-Cg6" secondAttribute="bottom" constant="79" id="cL4-d6-66b"/>
+                            <constraint firstItem="Ax2-Lq-eI6" firstAttribute="leading" secondItem="TbU-f3-8Ob" secondAttribute="leadingMargin" constant="20" id="gLh-jv-0bg"/>
+                            <constraint firstItem="rDv-mR-Cg6" firstAttribute="leading" secondItem="TbU-f3-8Ob" secondAttribute="leadingMargin" constant="109" id="mgr-RP-imy"/>
+                            <constraint firstItem="Ax2-Lq-eI6" firstAttribute="centerX" secondItem="TbU-f3-8Ob" secondAttribute="centerX" id="nEx-MJ-Ftg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="playButton" destination="rDv-mR-Cg6" id="TJN-Mf-pMX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cwb-Vw-5MC" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="218.13333333333333" y="220.57333333333332"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="UWavePauseButton.png" width="269" height="314"/>
+        <image name="UWavePlayButton.png" width="390" height="390"/>
+        <image name="logo.png" width="316" height="221"/>
+    </resources>
+</document>
