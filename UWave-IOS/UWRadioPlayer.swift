@@ -9,8 +9,8 @@
 import Foundation
 import AVFoundation
 
-class RadioPlayer {
-    static let sharedInstance = RadioPlayer()
+class UWRadioPlayer {
+    static let sharedInstance = UWRadioPlayer()
     private var player = AVPlayer(URL: NSURL(string: "http://live.uwave.fm:8000/listen-128.mp3")!)
     
     private var isPlaying = false

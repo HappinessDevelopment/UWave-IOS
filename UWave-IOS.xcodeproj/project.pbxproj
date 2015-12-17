@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		159E79EFFF73B9E11D1D0E20 /* libPods-UWave-IOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C636E5ACD44361357D649A9 /* libPods-UWave-IOS.a */; };
-		5ECDA92B1C225F6000B7BB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDA92A1C225F6000B7BB9E /* AppDelegate.swift */; };
-		5ECDA92D1C225F6000B7BB9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDA92C1C225F6000B7BB9E /* ViewController.swift */; };
+		5ECDA92B1C225F6000B7BB9E /* UWAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDA92A1C225F6000B7BB9E /* UWAppDelegate.swift */; };
+		5ECDA92D1C225F6000B7BB9E /* UWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDA92C1C225F6000B7BB9E /* UWViewController.swift */; };
 		5ECDA9301C225F6000B7BB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ECDA92E1C225F6000B7BB9E /* Main.storyboard */; };
 		5ECDA9321C225F6000B7BB9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ECDA9311C225F6000B7BB9E /* Assets.xcassets */; };
 		5ECDA9351C225F6000B7BB9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ECDA9331C225F6000B7BB9E /* LaunchScreen.storyboard */; };
-		5ECDA93D1C22601400B7BB9E /* RadioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDA93C1C22601400B7BB9E /* RadioPlayer.swift */; };
+		5ECDA93D1C22601400B7BB9E /* UWRadioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDA93C1C22601400B7BB9E /* UWRadioPlayer.swift */; };
 		5ECDA9821C22605700B7BB9E /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECDA9751C22605700B7BB9E /* Icon-60.png */; };
 		5ECDA9831C22605700B7BB9E /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECDA9761C22605700B7BB9E /* Icon-72.png */; };
 		5ECDA9841C22605700B7BB9E /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECDA9771C22605700B7BB9E /* Icon-72@2x.png */; };
@@ -31,13 +31,13 @@
 
 /* Begin PBXFileReference section */
 		5ECDA9271C225F6000B7BB9E /* UWave-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UWave-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5ECDA92A1C225F6000B7BB9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5ECDA92C1C225F6000B7BB9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5ECDA92A1C225F6000B7BB9E /* UWAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWAppDelegate.swift; sourceTree = "<group>"; };
+		5ECDA92C1C225F6000B7BB9E /* UWViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UWViewController.swift; sourceTree = "<group>"; };
 		5ECDA92F1C225F6000B7BB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5ECDA9311C225F6000B7BB9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ECDA9341C225F6000B7BB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5ECDA9361C225F6000B7BB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5ECDA93C1C22601400B7BB9E /* RadioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioPlayer.swift; sourceTree = "<group>"; };
+		5ECDA93C1C22601400B7BB9E /* UWRadioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UWRadioPlayer.swift; sourceTree = "<group>"; };
 		5ECDA9751C22605700B7BB9E /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
 		5ECDA9761C22605700B7BB9E /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		5ECDA9771C22605700B7BB9E /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 		5ECDA9291C225F6000B7BB9E /* UWave-IOS */ = {
 			isa = PBXGroup;
 			children = (
-				5ECDA92A1C225F6000B7BB9E /* AppDelegate.swift */,
-				5ECDA92C1C225F6000B7BB9E /* ViewController.swift */,
-				5ECDA93C1C22601400B7BB9E /* RadioPlayer.swift */,
+				5ECDA92A1C225F6000B7BB9E /* UWAppDelegate.swift */,
+				5ECDA92C1C225F6000B7BB9E /* UWViewController.swift */,
+				5ECDA93C1C22601400B7BB9E /* UWRadioPlayer.swift */,
 				5ECDA92E1C225F6000B7BB9E /* Main.storyboard */,
 				5ECDA9741C22605700B7BB9E /* Images */,
 				5ECDA9311C225F6000B7BB9E /* Assets.xcassets */,
@@ -273,9 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ECDA93D1C22601400B7BB9E /* RadioPlayer.swift in Sources */,
-				5ECDA92D1C225F6000B7BB9E /* ViewController.swift in Sources */,
-				5ECDA92B1C225F6000B7BB9E /* AppDelegate.swift in Sources */,
+				5ECDA93D1C22601400B7BB9E /* UWRadioPlayer.swift in Sources */,
+				5ECDA92D1C225F6000B7BB9E /* UWViewController.swift in Sources */,
+				5ECDA92B1C225F6000B7BB9E /* UWAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="yF7-Y5-eq0">
             <objects>
-                <viewController id="7oL-d4-wWc" customClass="ViewController" customModule="UWave_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7oL-d4-wWc" customClass="UWViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OKZ-uQ-txo"/>
                         <viewControllerLayoutGuide type="bottom" id="blH-sB-ig3"/>

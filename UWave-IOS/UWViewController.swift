@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class UWViewController: UIViewController {
 
    
     @IBOutlet weak var playButton: UIButton!
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         toggle()
     }
     func toggle(){
-        if RadioPlayer.sharedInstance.currentlyPlaying(){
+        if UWRadioPlayer.sharedInstance.currentlyPlaying(){
             pauseRadio()
         }else{
             playRadio()
@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         let image2 = UIImage(named: imageName)
 
         
-        RadioPlayer.sharedInstance.play()
+        UWRadioPlayer.sharedInstance.play()
             //playButton.setTitle("Pause", forState: UIControlState.Normal)
         
             playButton.setImage(image2, forState: UIControlState.Normal)
@@ -56,7 +56,7 @@ class ViewController: UIViewController {
         let imageName3 = "UWavePlayButton.png"
         let image3 = UIImage(named: imageName3)
         
-        RadioPlayer.sharedInstance.pause()
+        UWRadioPlayer.sharedInstance.pause()
         //playButton.setTitle("Play", forState: UIControlState.Normal)
         playButton.setImage(image3, forState: UIControlState.Normal)
         
