@@ -1,13 +1,24 @@
 PODS:
-  - PageMenu (1.2.8)
-  - RSPlayPauseButton (1.0.1)
+  - AFNetworking (3.0.3):
+    - AFNetworking/NSURLSession (= 3.0.3)
+    - AFNetworking/Reachability (= 3.0.3)
+    - AFNetworking/Security (= 3.0.3)
+    - AFNetworking/Serialization (= 3.0.3)
+    - AFNetworking/UIKit (= 3.0.3)
+  - AFNetworking/NSURLSession (3.0.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.3)
+  - AFNetworking/Security (3.0.3)
+  - AFNetworking/Serialization (3.0.3)
+  - AFNetworking/UIKit (3.0.3):
+    - AFNetworking/NSURLSession
 
 DEPENDENCIES:
-  - PageMenu
-  - RSPlayPauseButton
+  - AFNetworking
 
 SPEC CHECKSUMS:
-  PageMenu: 703e82e173f54a4626ab88fcdca7703ee52e0cbe
-  RSPlayPauseButton: 9def027a1259ded3a6ecfeb0e57df1775ff22fb0
+  AFNetworking: ba06eb9f27de596808c0acc09e1c920cb1d17ab4
 
 COCOAPODS: 0.39.0

@@ -5,8 +5,7 @@ use_frameworks!
 
 target 'UWave-IOS' do
 
-pod 'RSPlayPauseButton'
-pod 'PageMenu'
+pod 'AFNetworking'
 
 end
 

@@ -26,6 +26,13 @@
 		5ECDA98C1C22605700B7BB9E /* swoosh.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECDA97F1C22605700B7BB9E /* swoosh.png */; };
 		5ECDA98D1C22605700B7BB9E /* UWavePauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECDA9801C22605700B7BB9E /* UWavePauseButton.png */; };
 		5ECDA98E1C22605700B7BB9E /* UWavePlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECDA9811C22605700B7BB9E /* UWavePlayButton.png */; };
+		5ECDA9921C2295BA00B7BB9E /* UWPlayPauseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDA9911C2295BA00B7BB9E /* UWPlayPauseButton.swift */; };
+		5ECDA9971C22A6ED00B7BB9E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDA9961C22A6ED00B7BB9E /* UIColor.swift */; };
+		5ECDA9991C22AA2800B7BB9E /* UWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDA9981C22AA2800B7BB9E /* UWApp.swift */; };
+		5ECDA99B1C22AA5D00B7BB9E /* UWNetworkingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDA99A1C22AA5D00B7BB9E /* UWNetworkingEngine.swift */; };
+		5ECDA99E1C22AE7B00B7BB9E /* UWSongMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDA99D1C22AE7B00B7BB9E /* UWSongMetadata.swift */; };
+		5ECDA9A11C22B3A000B7BB9E /* AnimatablePlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDA99F1C22B3A000B7BB9E /* AnimatablePlayButton.swift */; };
+		5ECDA9A21C22B3A000B7BB9E /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDA9A01C22B3A000B7BB9E /* CAPSPageMenu.swift */; };
 		F030C44D675C41FB02DF6C59 /* Pods_UWave_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136E75A08E0CE99F32A5819A /* Pods_UWave_IOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +59,13 @@
 		5ECDA97F1C22605700B7BB9E /* swoosh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swoosh.png; sourceTree = "<group>"; };
 		5ECDA9801C22605700B7BB9E /* UWavePauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UWavePauseButton.png; sourceTree = "<group>"; };
 		5ECDA9811C22605700B7BB9E /* UWavePlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UWavePlayButton.png; sourceTree = "<group>"; };
+		5ECDA9911C2295BA00B7BB9E /* UWPlayPauseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UWPlayPauseButton.swift; sourceTree = "<group>"; };
+		5ECDA9961C22A6ED00B7BB9E /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		5ECDA9981C22AA2800B7BB9E /* UWApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UWApp.swift; sourceTree = "<group>"; };
+		5ECDA99A1C22AA5D00B7BB9E /* UWNetworkingEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UWNetworkingEngine.swift; sourceTree = "<group>"; };
+		5ECDA99D1C22AE7B00B7BB9E /* UWSongMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UWSongMetadata.swift; sourceTree = "<group>"; };
+		5ECDA99F1C22B3A000B7BB9E /* AnimatablePlayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimatablePlayButton.swift; path = "UWave-IOS/Frameworks/AnimatablePlayButton.swift"; sourceTree = "<group>"; };
+		5ECDA9A01C22B3A000B7BB9E /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CAPSPageMenu.swift; path = "UWave-IOS/Frameworks/CAPSPageMenu.swift"; sourceTree = "<group>"; };
 		709240EAA9DFBF389CF30FF1 /* Pods-UWave-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UWave-IOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UWave-IOS/Pods-UWave-IOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DC66C1A2A06E1BC13009FF1D /* Pods-UWave-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UWave-IOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-UWave-IOS/Pods-UWave-IOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +105,11 @@
 			children = (
 				5ECDA92A1C225F6000B7BB9E /* UWAppDelegate.swift */,
 				5ECDA92C1C225F6000B7BB9E /* UWViewController.swift */,
+				5ECDA9911C2295BA00B7BB9E /* UWPlayPauseButton.swift */,
+				5ECDA9961C22A6ED00B7BB9E /* UIColor.swift */,
+				5ECDA9981C22AA2800B7BB9E /* UWApp.swift */,
+				5ECDA99A1C22AA5D00B7BB9E /* UWNetworkingEngine.swift */,
+				5ECDA99C1C22AE7000B7BB9E /* Model */,
 				5ECDA93C1C22601400B7BB9E /* UWRadioPlayer.swift */,
 				5ECDA92E1C225F6000B7BB9E /* Main.storyboard */,
 				5ECDA9741C22605700B7BB9E /* Images */,
@@ -121,9 +140,19 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		5ECDA99C1C22AE7000B7BB9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5ECDA99D1C22AE7B00B7BB9E /* UWSongMetadata.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		7ED7117E7A8677989B33AD1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5ECDA99F1C22B3A000B7BB9E /* AnimatablePlayButton.swift */,
+				5ECDA9A01C22B3A000B7BB9E /* CAPSPageMenu.swift */,
 				136E75A08E0CE99F32A5819A /* Pods_UWave_IOS.framework */,
 			);
 			name = Frameworks;
@@ -273,8 +302,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ECDA99B1C22AA5D00B7BB9E /* UWNetworkingEngine.swift in Sources */,
+				5ECDA9921C2295BA00B7BB9E /* UWPlayPauseButton.swift in Sources */,
+				5ECDA9A21C22B3A000B7BB9E /* CAPSPageMenu.swift in Sources */,
+				5ECDA9971C22A6ED00B7BB9E /* UIColor.swift in Sources */,
 				5ECDA93D1C22601400B7BB9E /* UWRadioPlayer.swift in Sources */,
+				5ECDA9991C22AA2800B7BB9E /* UWApp.swift in Sources */,
+				5ECDA99E1C22AE7B00B7BB9E /* UWSongMetadata.swift in Sources */,
 				5ECDA92D1C225F6000B7BB9E /* UWViewController.swift in Sources */,
+				5ECDA9A11C22B3A000B7BB9E /* AnimatablePlayButton.swift in Sources */,
 				5ECDA92B1C225F6000B7BB9E /* UWAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
